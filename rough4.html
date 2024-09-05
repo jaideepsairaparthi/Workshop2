@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0.75rem;
+    background-color: #fffcf8;
+  }
+  nav{
+   text-align: center;
+   display: flex;
+   gap: 2em;
+  }
+  nav a{
+    text-decoration: none;
+    color: blueviolet;
+  }
+  .img{
+    background-image: url("https://wallpapertag.com/wallpaper/full/8/7/e/221119-travel-background-1920x1080-laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    width: 100%;
+    height: 100vh;
+  }
+  .img h1{
+    margin-top: 50px;
+  }
+  .img h1,.img p{
+    height: 20px;
+    margin-left: 150px;
+  }
+  button{
+    margin-left: 150px;
+    margin-top: 200px;
+    color: blueviolet;
+  }
+  .img p{
+    width: 100px;
+  }
+  button:hover{
+    scale: 1.5;
+  }
+  nav a:hover{
+    background-color: black;
+    scale: 1.5;
+  }.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  .card1a{
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+  }
+  .card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
+    background-color: #fffcf8;
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+    display: grid;
+    border: 2px solid blueviolet; 
+    text-align: center; 
+    /* line-height: 1.5;  */
+  }
+ 
+  .card1 p,.card2 p,.card3 p,.card4 p,.card5 p,.card6 p,.card7 p,.card8 p{
+    color: #9a9a9a;
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+  }
+  .section2{
+    margin-top: 100px;
+  }
+  .section2{
+  margin-top: 30em;
+}
+.container1{
+  background-color: blue;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .lh-lg.mb-4{
+  width: 90%;
+  margin-bottom: 1.5em;
+} */
+.footer-item{
+  width: 15em;
+  line-height: 2;
+}
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625em; 
+  margin-bottom: 4em;
+}
+
+.foot img {
+  border-radius: 8rem;
+  border: 3px solid #d4a762;
+  padding: 0.5em;
+  width: 5em; 
+}
+
+.foot > div {
+  width: calc(33.33% - 10px);  
+}
+.footer-item p,a{
+  color: #9a9a9a;
+}
+.container1 .footer-item h4{
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+.icons{
+ padding: 0.5em;
+ background-color: #d4a762;
+ border-radius: 8rem;
+ color: black;
+}
+.foo a {
+    padding-left: 20px;
+}
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    padding: 0.5em;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+
+  .img h1, .img p {
+    margin-left: 20px;
+    font-size: 1.2em;
+  }
+
+  button {
+    margin-left: 20px;
+    margin-top: 250px;
+    font-size: 1em;
+  }
+
+  .cards {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
+    width: 100%;
+    height: auto;
+    margin: 0.5em;
+  }
+
+  .container1 {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+
+  .foot > div {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .foot img {
+    width: 4em;
+    margin: 0 auto;
+  }
+
+  .icons {
+    display: inline-block;
+    margin: 0.25em;
+  }
+
+  p, a {
+    font-size: 0.9em;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head"><h1>Travel</h1></div>
+        <nav>
+            <a href="#s1">Home</a>
+            <a href="#s2">Services</a>
+            <a href="#s7">Contact Us</a>
+        </nav>
+    </header>
+    <div class="img">
+        <img src="" alt="">
+        <h1>Fuel Mind <br>
+             Travel</h1>
+        <h1></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officiis quaerat cum provident! Distinctio libero quibusdam amet odit nam a qui. </p>
+        <button>
+            Let's Go Now
+        </button>
+    </div>
+    <section class="section1" style="margin-top: 100px;">
+    <div class="cards">
+        <div class="card1">
+            <img width="150px" height="150px"  style="margin-left: 80px; margin-top: 30px;" src="travel.jpg" alt="" >
+            <h4 >Ship Cruise</h4>
+            <p >150 Properties</p>
+            
+        </div>
+        <div class="card2">
+            <img width="150px" height="150px"  style="margin-left: 80px; margin-top: 30px;" src="travel.jpg" alt="">
+            <h4 >Ship Cruise</h4>
+            <p >150 Properties</p>
+            
+        </div>
+        <div class="card3">
+            <img width="150px" height="150px" style="margin-left: 80px; margin-top: 30px;" src="travel.jpg" alt="" w>
+            <h4 >Ship Cruise</h4>
+            <p >150 Properties</p>
+        </div>
+    </div>
+</section>
+<section class="section11" style="margin-top: 100px;" >
+    <div class="container1">
+            <div class="footer-item">
+                            <h1>Quick Links</h1>
+                            <p>About</p>
+                            <p>Terms and conditions</p>
+                            <p>privacy policy</p>
+                            <p>help</p> 
+                            <p>Tour</p>
+                           
+                        </div>
+
+                        <div class="footer-item">
+                            <h4 >Quick Links</h4>
+                            <p>About</p>
+                            <p>Terms and conditions</p>
+                            <p>privacy policy</p>
+                            <p>help</p> 
+                            <p>Tour</p>
+                        </div>
+                        <div class="footer-item">
+                            <h4 >Quick Links</h4>
+                            <p>About</p>
+                            <p>Terms and conditions</p>
+                            <p>privacy policy</p>
+                            <p>help</p> 
+                            <p>Tour</p>
+                        </div>
+                      
+                        <div class="footer-item">
+                            <h4>connect</h4>
+                            <div class="foot">
+                                <div class="foo">
+                                    <a href="#" class="icons"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="icons"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="icons"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="icons"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                             
+                            </div>
+                        </div>
+                       </div>
+                    
+                    </div>
+                    <div><p style="text-align: center; background-color: blue; margin-top: 0;">@2024-all rights reserved</p>
+   </section>
+   <!-- footer -->
+</body>
+</html>
